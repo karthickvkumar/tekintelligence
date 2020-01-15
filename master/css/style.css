@@ -542,7 +542,6 @@ section.k-ol:before {
   border-top-color: #fff;
 }
 
-/* Karya Services */
 .k-services .card-contain {
   margin-top: -150px;
 }
@@ -2163,4 +2162,1173 @@ span.flag-contain {
   .carousel .carousel-control-next, .carousel .carousel-control-prev {
     line-height: 34px;
   }
+}
+
+/* Subpage Starts Here */
+.navbar img.logo {
+    margin: 1rem 1rem 1rem 0;
+}
+
+.top-nav-collapse.navbar img.logo {
+    margin: .5rem;
+}
+
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: #607D8B;
+}
+
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link:hover {
+    color: #12a9c3;
+}
+.main-container, section .main-container {
+    display: inline-block;
+    width: 100%;
+    padding: 0 40px;
+}
+.main-container .card-block{
+    padding-right: 0 !important;
+}
+.main-container .col-xl-5.col-lg-12.col-md-12:first-child{
+    padding-left: 0 !important;
+}
+.banner-section {
+    background: #303847;
+    padding-top: 16vh;
+    padding-bottom: 20px;
+}
+.banner-section div:first-child {
+    text-align:left;
+}
+
+.banner-section div:first-child p{
+    font-size: 35px;
+    text-align:left;
+    display:inline-block;
+    position:relative;
+    color:#fff;
+}
+
+.banner-section div:first-child p:after{
+    content: "";
+    border-top: 4px solid #12a9c3;
+    position: absolute;
+    top: 58px;
+    left: 0;
+    width: 0;
+    -webkit-animation: bannerTextAfteranim 0.6s linear 1.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation: bannerTextAfteranim 0.6s linear 1.5s;
+    animation-fill-mode: forwards;
+}
+.banner-section div:first-child p span{
+    color:#1dadc7;
+}
+.banner-section div:nth-child(2){
+    text-align:center;
+}
+.banner-section div:nth-child(2) img{
+    min-width:400px;
+    min-height:275px;
+    max-width:400px;
+    max-height:275px;
+    width: 100%;
+}
+.banner-section.aboutus-banner div{
+    text-align:center;
+}
+.banner-section.aboutus-banner img, .banner-section.aboutus-banner svg {
+    max-width:558px;
+    width:100%;
+}
+
+.sub-page section:before {
+    display: none;
+}
+h4 {
+    font-size: 18px;
+}
+
+.sub-page section.fadeIn {
+    padding: 60px 0;
+    margin: 0;
+}
+
+.sub-page .k-aboutus .card {
+    border:2px solid #f3f3f3;
+    box-shadow: none;
+    border-radius: 7px;
+}
+
+.sub-page .k-aboutus .card .card-img {
+    margin: 15px 0 30px;
+}
+
+.sub-page .k-aboutus .card h4 {
+    color: #34495e;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+}
+.sub-page p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.sub-page .pr-3 {
+    padding-right: 0.3rem !important;
+}
+
+.sub-page .plr-15 {
+    padding-right: 0.15rem !important;
+    padding-left: 0.15rem !important;
+}
+
+.sub-page .pl-3 {
+    padding-left: 0.3rem !important;
+}
+.sub-page h3.section-head {
+    margin-bottom: 10px;
+    margin-top:40px;
+}
+.sub-page h3.section-head .break-text{
+    display:block;
+}
+.sub-page h3:first-child{
+    margin-top:0;
+    margin-bottom:20px !important;
+}
+.full-image-container, .half-image-container, .medium-image-container, .large-image-container{
+    text-align:center;
+    margin-top:20px;
+}
+.full-image-container img, .half-image-container img, .medium-image-container img, .large-image-container img{
+    width:100%;
+}
+.full-image-container ul li {
+   width:auto;
+   float:left;
+}
+.full-image-container ul li img {
+    min-width:175px;
+    max-width:175px;
+ }
+.banner-section div:nth-child(2).banner-block-img img {
+  min-width:100%;
+}
+.half-image-container img {
+    max-width: 500px;
+}
+.medium-image-container img{
+    max-width: 600px;
+}
+.large-image-container img{
+    max-width: 750px;
+}
+.custom-card .card-text{
+    height:74px;
+}
+.card-block{
+    min-height: 570px;
+}
+.clearfix{
+    clear:both;
+    height:0;
+}
+.clearfix10{
+    clear:both;
+    height:10px;
+}
+.clearfix2 {
+    clear: both;
+    width: 100%;
+    height: 20px;
+}
+
+.clearfix4 {
+    clear: both;
+    width: 100%;
+    height: 4rem;
+}
+
+.k-our-vision {
+    background: #fefdef;
+}
+
+.k-corporate {
+    background: #f9f9f9;
+}
+
+.k-corporate h4 {
+    position:relative;
+}
+
+.k-corporate .text-blue {
+    color: #9096f9;
+}
+
+.k-corporate .text-orange {
+    color: #fbc15a;
+}
+
+.k-corporate .text-green {
+    color: #59e9b3;
+}
+
+.k-corporate .text-pink {
+    color: #ec5478;
+}
+
+.k-history {
+    /*background: url('../img/svg/aboutus-history.svg') no-repeat 96% center;*/
+    background: url(../img/svg/aboutus-history.svg) no-repeat right 2% bottom 20%;
+    background-size: 300px;
+}
+
+/*.figure-content-section {
+    background: url(../img/svg/CorporateRes.svg) no-repeat center;
+}*/
+
+.k-our-vision {
+    /*background: url(../img/svg/vision.svg) no-repeat;
+    background-position: center top 60px;*/
+    background-color: #34495e;
+}
+.k-our-vision p {
+    color:#fff;
+}
+.d-mob-block {
+    display:none;
+}
+.pink-text {
+    color:#fb3b79;
+}
+.yellow-text {
+    color:#fbcd3f;
+}
+.blue-text {
+    color:#4677f5;
+}
+/* Subpage Ends Here */
+
+/*IT Security*/
+.why-k-block {
+    margin: 30px 0;
+    border-radius:0.5vh;
+}
+.why-k-block .why-k-content-wrapper {
+    padding:15px;
+    height:100%;
+}
+.why-k-block .why-k-icon-block {
+    transition:  padding-right 0.5s linear;
+    font-weight: 500;
+    margin-bottom:10px;
+    position: relative;
+}
+
+.why-k-block .why-k-icon-block img {
+    width:100%;
+    max-width:80px;
+    min-width: 80px;
+    border-radius:50%;
+    border-top:10px solid #12a9c3;
+    border-bottom:10px solid #ddd;
+    border-left:10px solid #ddd;
+    border-right:10px solid #b3cf5b;
+    background:#fff;
+    padding:10px;
+}
+.k-ebusiness{
+    padding-bottom:0;
+    background: #f2fffe;
+}
+.k-ebusiness h3.section-head{
+    margin-bottom: 0 !important;
+}
+.k-ebusiness .why-k-block{
+    margin-bottom: 10px;
+}
+.k-ebusiness .why-k-block .why-k-icon-block img{
+    background: none;
+    border-radius:0;
+    min-width: auto;
+    max-width: 150px;
+    border: 0;
+    max-height: 95px;
+    background:#fff;
+}
+.k-ebusiness .why-k-block ul{
+    text-align:left;
+}
+.k-ebusiness .why-k-block ul li{
+    list-style: circle inside;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+}
+.k-ebusiness .why-k-block ul li ul li{
+    line-height: 20px;
+    margin-top: 10px;
+    padding-left: 30px;
+    list-style-type: disc;
+}
+.why-k-content-wrapper .why-k-icon-block span {
+    font-size:16px;
+    margin-bottom:15px;
+    color:#31aed1;
+    font-weight:600;
+    padding-bottom:10px;
+    border-bottom: 1px solid #ECEFF1;
+}
+.why-k-content-wrapper .why-k-icon-block .title-text{
+    color: #31aed1;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 25px;
+}
+.why-k-content-wrapper .why-k-icon-block .info-text{
+    font-size:14px;
+    padding-bottom:10px;
+    border-bottom: 1px solid #ECEFF1;
+}
+.why-k-content-wrapper .why-k-icon-block div:first-child {
+    position: absolute;
+    top:-50px;
+    left:0;
+    text-align: center;
+    padding-right:0 !important;
+}
+.k-ebusiness .why-k-content-wrapper .why-k-icon-block div:first-child {
+    position:relative;
+    top: 0;
+    border-bottom:1px solid #ECEFF1;
+}
+.why-k-content-wrapper .why-k-icon-block .why-k-content-block {
+    padding-top:40px !important;
+    text-align:center;
+}
+.why-k-content-wrapper .why-k-icon-block .why-k-content-block.custom-pt-0{
+    padding-top:40px !important;   
+}
+.why-k-block .why-k-content-wrapper {
+    border-radius: 5px;
+    border: 1px solid #ECEFF1;
+    background: #fff;
+}
+
+/*IT Security*/
+
+/*Common CSS*/
+.card-block ul {
+    padding:15px;
+}
+.card-block ul li {
+    margin-bottom:5px;
+    font-size:13px;
+    color:#333;
+    list-style: circle inside;
+}
+/*Common CSS*/
+
+/* Managed Services CSS */
+.tableContainer {
+    background:#fff;
+    margin-bottom:10px;
+}
+.tableContainer .table-heading {
+    padding:40px 20px 22px 0;
+    float:left;
+}
+.tableContainer:first-child .table-heading{
+    padding-top:0;
+}
+.tableContainer .table-heading.has-slider {
+    padding:40px 20px 8px 0;
+}
+.tableContainer .table-heading p {
+    font-size:24px;
+    color:#34495e;
+    margin:0;
+    font-weight:500;
+    width:60%;
+    float:left;
+}
+.tableContainer .table-content {
+    overflow-x:auto;
+    overflow-y:hidden;
+}
+.tableContainer .table-content table {
+    text-align: center;
+    border:1px solid #d6d6d6;
+}
+.tableContainer .table-content table thead tr th i {
+    font-size: 30px;
+    color: #666666;
+    max-width: 45px;
+    width: 100%;
+    display: block;
+    margin:0 auto;
+}
+.tableContainer .table-content table tr {
+    border-top:1px solid #d6d6d6;
+}
+.tableContainer .table-content table th,.tableContainer .table-content table td {
+    padding:10px;
+    font-size:12px;
+    border-right:1px solid #d6d6d6;
+}
+.tableContainer .table-content table thead th {
+    background: #666666;
+    color: #fff;
+}
+.tableContainer .table-content table thead th:first-child {
+    background:#f2f2f2;
+}
+.tableContainer .table-content table thead th:last-child,.tableContainer .table-content table td:last-child {
+    border:0;
+}
+.tableContainer .icon {
+    font-weight:500;
+}
+.tableContainer .icon.ion-md-remove {
+    color:red;
+}
+/*.sub-page section.fadeIn {
+    padding:50px 0;
+}*/
+.tableContainer .owl-carousel {
+    width:40%;
+    float:right;
+}
+.tableContainer .owl-carousel .owl-dots {
+    display: none;
+}
+.tableContainer .owl-carousel .owl-item img {
+    max-width:100px;
+    margin:0 auto;
+}
+/* Managed Services CSS */
+.card-block .card-body {
+    position: relative;
+    overflow: hidden;
+}
+.card-block .card-body .card-list {
+    position: fixed;
+    top:0;
+    bottom:0;
+    width:100%;
+    left:0;
+    right:0;
+    z-index:-1;
+    background:#fff;
+    padding:20px;
+    visibility: hidden;
+}
+
+.card-list .rippleBlock {
+    top: 20px;
+    right: 19px;
+    background: #9bc9f0;
+    transition: all 0.6s;
+    z-index: 10;
+    visibility:visible;
+    opacity:1;
+}
+
+.card-list.showRipple .rippleBlock {
+    visibility: visible;
+    transform: scale(1.5);
+    opacity: 0;
+    transition: all 0.6s;
+}
+
+
+/*Subpage Card CSS*/
+.sub-page .custom-card {
+    top:0;
+}
+/*Subpage Card CSS*/
+
+/*Competencies CSS*/
+.k-competencies {
+    background: #34495e;
+}
+.k-competencies .section-head {
+    color:#fff;
+    margin-bottom: 0 !important;
+}
+.security-block {
+    margin-bottom: 20px;
+}
+
+.security-content-wrapper {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.security-content-wrapper .security-content-block ul {
+    text-align: left;
+}
+
+.security-content-wrapper .security-content-block {
+    padding: 50px 20px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    height: 85%;
+    background-color: white;
+}
+
+.security-icon-block h4 {
+    color: #ffffff;
+}
+
+.security-content-wrapper .security-icon-block {
+    text-align: center;
+    width: 100%;
+    border: 2px solid #fff;
+    max-width: 80px;
+    padding-top: 8px;
+    min-width: 80px;
+    position: relative;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #00b6ce, #3a7bd5);
+    top: 35px;
+}
+
+.security-icon-block img {
+    max-width: 60px;
+    min-width: 60px;
+    padding: 10px;
+}
+
+.security-content-block p {
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+    text-align: center;
+    font-weight: 600;
+    color: #12a9c3;
+}
+.security-content-block ul li {
+    margin-bottom: 10px;
+    font-size:0.8rem;
+}
+.common-ul li {
+    width:25%;
+    float:left;
+    margin-bottom:10px;
+    text-align: center;
+}
+.section-list li{
+    color:#34495e;
+}
+.common-ul li img {
+    width: 100%;
+    max-width: 80px;
+    min-width: 80px;
+    height:80px;
+    border-radius: 50%;
+    background: #3d3e63;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.common-ul li p {
+    font-size:0.85rem;
+    color:#393b5e;
+    font-weight:600;
+}
+.infra-service-block ul li p span {
+    font-weight:600;
+    color:#3d3e63;
+}
+.security-content-block ul li {
+    list-style: circle inside;
+}
+.security-content-block ul li ul {
+    padding-left:20px;
+    margin-top:7px;
+}
+.security-content-block ul li ul li {
+    list-style: disc inside;
+}
+.security-content-block h4 {
+    font-size:1.3rem;
+    padding-bottom:7px;
+    border-bottom:1px solid #ddd;
+}
+/*Competencies CSS*/
+
+/*Enterprise CSS*/
+.en-service-list li {
+    width:33%;
+    float:left;
+    position: relative;
+    padding-left:30px;
+    margin-bottom: 10px;
+}
+.en-service-list li:after {
+    content:">";
+    line-height: normal;
+    font-size:1rem;
+    color:#fff;
+    position: absolute;
+    top:0;
+    left:10px;
+}
+.en-service-list li a {
+    font-size:0.95rem;
+    color:#fff;
+    text-decoration: none;
+}
+.en-service-list li a:hover {
+    color:#00BCD4;  
+}
+/*Enterprise CSS*/
+
+/*Office365 CSS*/
+.office-tools-list li {
+    width:16.66667%;
+}
+.row-card-block{
+    min-height:auto;
+    margin-top:20px;
+}
+.row-card-block .card-content {
+    position:relative;
+    top:0 !important;
+    right:0 !important;
+    display:inline-block;
+    margin:0 10px;
+}
+/*Office365 CSS*/
+
+/*SalesForce CSS*/
+.k-salesforce .common-ul li {
+    list-style: none;
+    width:33%;
+}
+.k-salesforce .common-ul li img {
+    background:transparent;
+    border-radius: 0;
+    max-width:100px;
+}
+.k-salesforce h3.section-head { margin-bottom:30px !important; }
+.k-salesforce .security-content-wrapper .security-content-block{
+    height: 100%;
+    padding: 30px 20px 30px;
+}
+/*SalesForce CSS*/
+
+/*Sharepoint CSS*/
+.k-sharepoint ul li {
+    list-style: none;
+    width:auto;
+    display:inline-block;
+    padding:10px;
+}
+.k-sharepoint ul li p {
+    color:#fff;
+    font-size:0.85rem;
+    text-align: center;
+}
+.k-sharepoint ul li img {
+    padding:10px;
+    min-width: 80px;
+    max-width: 80px;
+    width:100%;
+    border-radius: 50%;
+    background: #fff;
+}
+.services-text {
+    color:#ddd;
+    background: url("../img/svg/right-arrow.svg") no-repeat;
+    background-size: 12px;
+    background-position: left center;
+    padding-left:20px; 
+}
+/*Sharepoint CSS*/
+
+/*Industry Solutions*/
+.k-ind-sol .common-ul li {
+    padding:10px;
+}
+.k-ind-sol .common-ul li img,.common-serv-ul li img,.k-sharepoint .common-serv-ul li img {
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+    max-width:64px;
+    min-width:64px;
+    min-height: 64px;
+    height: auto;
+}
+/*Industry Solutions*/
+
+/*Infrastructure Service CSS*/
+.infra-service-block .img-block img {
+    max-width:700px;
+}
+/*Infrastructure Service CSS*/
+
+
+/*Oracle Page CSS*/
+.k-main-op .why-k-content-wrapper .why-k-icon-block .why-k-content-block {
+    padding-top: 20px !important;
+}
+.k-main-op .why-k-content-wrapper .why-k-icon-block .why-k-content-block p:last-child {
+    font-size: 13px;
+}
+.hint-text {
+    color: #12a9c3;
+    font-size: 15px;
+}
+.has-bg-white {
+    background: #fff !important;
+}
+/*Oracle Page CSS*/
+
+/*Banner Animation*/
+.banner-section p {
+    -webkit-animation:bannerTextanim 0.6s linear 0.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation:bannerTextanim 0.6s linear 0.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@-webkit-keyframes bannerTextanim {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes bannerTextanim {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@-webkit-keyframes bannerTextAfteranim {
+    0% {width:0;}
+    100% {width:40px;}
+}
+@keyframes bannerTextAfteranim {
+    0% {width:0;}
+    100% {width:40px;}
+}
+/*Banner Animation*/
+
+.sub-page h3.section-head.mt-lg {
+    margin-top:30px !important;
+}
+
+#serviceModal .card-img img {
+    max-width:120px;
+    max-height:100px;
+}
+
+#serviceModal ul li {
+    color: #34495e;
+}
+
+@media (min-width: 1400px) {
+    /* .sub-page .wow.fadeIn, .banner-section{
+        text-align:center;
+    } */
+    .sub-page .main-container, .banner-section .main-container{
+        max-width:1370px;
+        text-align:left;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .k-our-vision {
+        background-size: 775px;
+    }
+    .sub-page .custom-card .card-content {
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        top: 0 !important;
+        right: 0 !important;
+    } 
+    .sub-page .custom-card {
+        top: 0;
+        right: 0;
+        float: left;
+        margin-top: 35px;
+        width: 100%;
+        text-align: center;
+    }
+    .sub-page .card-block{
+        min-height: auto;
+    }
+    .full-image-container ul li {
+        width:25%;
+    }
+    .sub-page h3.section-head .break-text{
+        display:inline-block;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .card-block:first-child,.card-block:nth-child(2),.card-block:last-child {
+        padding:0 15px 15px !important; 
+    }
+    .card-block:last-child {
+        padding-bottom:0 !important; 
+    }
+    .k-our-vision {
+        background-image:none;
+    }
+    .k-our-vision .text-right{
+        text-align:left !important;
+    }
+    .white-divider {
+        padding-bottom: 30px;
+    }
+    .d-mob-none {
+        display: none;
+    }
+    .d-mob-block {
+        display:block;
+    }
+    .k-history {
+        background: url(../img/svg/aboutus-history.svg) no-repeat right 2% bottom 10%;
+        background-size: 275px;
+    }
+    .custom-card .card-content .more-details-block {
+        margin:0;
+    }
+    .en-service-list li {
+        width:50%;
+    }
+    .en-service-list li a {
+        font-size:0.9rem;
+    }
+    .k-ind-sol .common-ul li {
+        width:33%;
+    }
+    .k-ind-sol .common-ul li:nth-child(4) {
+        clear:left;
+    }
+    .banner-section div:first-child p{
+        font-size:38px;
+        line-height:60px;
+    }
+
+    .main-container {
+        padding: 0 30px;
+    }
+
+    .main-container .col-md-12.pl-0 {
+        padding:0 !important;
+    }
+
+    .main-container .col-md-12.pr-0 {
+        padding:0 !important;
+    }
+
+    .banner-section div:nth-child(2) img{
+        min-width:auto;
+        min-height:auto;
+    }
+
+    .card-block{
+        min-height: auto;
+    }
+
+    .team-block {
+        padding: 0;
+    }
+    .full-image-container ul li {
+        width:33%;
+    }
+
+    #core-values svg {
+        width:100%;
+        height:100%;
+    }
+
+    .mb-ul li {
+        width:33%;
+    }
+    #visionBg {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /* Subpage Starts Here */
+    .sub-page .pr-3 {
+        padding-right: 15px !important;
+    }
+
+    .sub-page .plr-15 {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
+    .sub-page .pl-3 {
+        padding-left: 15px !important;
+    }
+    .sub-page .k-corporate .text-right {
+        text-align: left !important;
+    }
+
+    .sub-page .k-corporate .clearfix4 {
+        height:0;
+    }
+    .mob-content-block {
+        margin:0 !important;
+        padding:0 0 20px !important;
+    }
+    .figure-content-section {
+        background:none;
+    }
+    .sub-page section.fadeIn {
+        padding:40px 0;
+    }
+    
+    .k-corporate h4 {
+        margin-bottom:15px;
+    }
+
+    .k-corporate h4:after {
+        content:"";
+        position: absolute;
+        bottom:-7px;
+        left:0;
+        width:30px;
+        height:3px;
+    }
+
+    .k-corporate .text-blue:after {
+        background: #9096f9;
+    }
+    
+    .k-corporate .text-orange:after {
+        background: #fbc15a;
+    }
+    
+    .k-corporate .text-green:after {
+        background: #59e9b3;
+    }
+    
+    .k-corporate .text-pink:after {
+        background: #ec5478;
+    }
+
+    .figure-content-section .col-md-5 {
+        margin-bottom: 20px;
+    }
+    .figure-content-section .col-md-5:last-child {
+        margin-bottom: 0;
+    }
+    .main-container .col-md-5.pl-0, .main-container .col-md-6.pl-0, .main-container .col-12.pl-0, .main-container .col-md-5.pr-0, .main-container .col-md-6.pr-0, .main-container .col-12.pr-0, .main-container .card-block, .main-container .col-lg-5.col-md-12:first-child{
+        padding:0 !important;
+    }
+    /* Subpage Ends Here */
+
+    .common-ul li {
+        width:33%;
+    }
+    .k-salesforce .common-ul li {
+        width:50%;
+    }
+    .infra-service-block .img-block img {
+        max-width: 500px;
+    }
+
+    .banner-section div:first-child p{
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .banner-section div:first-child p:after{
+        display:none;
+    }
+    .banner-section div:first-child p span{
+        display: block;
+    }
+    .main-container, section .main-container {
+        padding: 0 25px;
+    }
+
+    .tableContainer .table-heading p {
+        font-size: 20px; 
+    }
+
+    ul.en-service-list.m-0 {
+        margin-top: 20px !important;
+    }
+
+    .why-k-block, .security-block {
+        padding: 0;
+    }
+
+    .mb-ul li {
+        width:50%;
+    }
+    
+    #corporateBg {
+        display: none;
+    }
+}
+@media only screen and (max-width:605px){
+    .custom-card .card-content:first-child, .custom-card .card-content:nth-child(2){
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width:575px){
+    .k-history {
+        background: url(../img/svg/aboutus-history.svg) no-repeat right 2% bottom 5%;
+        background-size: 250px;
+    }
+    .sub-page section.fadeIn {
+        padding: 30px 0;
+    }
+
+    .sub-page section.fadeIn.blog-container {
+        padding: 10px 0 40px;
+    }
+
+    .sub-page section.fadeIn.blog-container .main-container {
+        padding: 0 10px;
+    }
+
+    .sub-page section.fadeIn.blog-container .blog-item {
+        padding: 20px;
+    }
+
+    .blog-container .share-social-btn.w-25 {
+        top: 0px;
+    }
+
+    .blog-container .blog-item .big-letter {
+        left: -20px;
+    }
+
+    .blog-container .latest-blog-content {
+        padding: 20px;
+    }
+
+    .blog-container .btn.btn-block.load-more-btn {
+        width: 92%;
+    }
+
+    .sub-page h3.section-head{
+        margin-bottom: 12px !important;
+    }
+
+    
+    .row .why-k-block{
+        margin:45px 0 30px;
+    }
+    #coreSVG1 {
+        content: url(../img/svg/Mob-Client-focus.svg);
+    }
+    .sub-page .k-aboutus .card .card-img {
+        margin:0 0 20px;
+    }
+    
+    .common-ul li {
+        width:50%;
+    }
+    .security-content-block ul.w-50 {
+        width:100% !important;
+        margin-bottom:20px !important;
+    }
+    .en-service-list li {
+        width:100%;
+    }
+    .en-service-list li a {
+        font-size:0.85rem;
+    }
+    .security-content-block ul.w-25 {
+        width:100% !important;
+    }
+    .infra-service-block .img-block img {
+        max-width:350px;
+    }
+    .k-ind-sol .common-ul li {
+        width:50%;
+    }
+    .k-ind-sol .common-ul li:nth-child(4) {
+        clear: none;
+    }
+
+    .banner-section div:first-child p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .custom-card .card-content:last-child {
+        margin-bottom: 0;
+    }
+    .custom-card .card-content:first-child, .custom-card .card-content:nth-child(2){
+        margin-bottom: 50px;
+    }
+    .custom-card .card-content:last-child{
+        margin-bottom: 0;
+    }
+    .full-image-container ul li {
+        width:50%;
+    }
+
+    .k-sharepoint ul li {
+        width:25%;
+        float: left;
+        text-align: center;
+    }
+
+    .sub-page svg, .banner-section svg {
+        width:100%;
+    }
+
+    .banner-section.aboutus-banner img, .banner-section.aboutus-banner svg {
+        height:auto;
+    }
+
+    .mb-ul li {
+        width:100%;
+    }
+}
+
+@media only screen and (max-width:450px){
+    .full-image-container ul li {
+        width:100%;
+    }
+}
+
+@media only screen and (max-width:380px){
+    .common-ul li,.k-salesforce .common-ul li {
+        width:100%;
+    }
+
+    .infra-service-block .img-block img {
+        max-width:280px;
+    }
+
+    .k-ind-sol .common-ul li {
+        width:100%;
+    }
+}
+
+/* For SVG Compatible  */
+.ie {display: none;}
+
+@supports (-ms-ime-align: auto) {
+  .ie {display: none;}
+
+  .non-ie {display: none;}
+
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* IE10 & IE11 CSS styles go here */
+  .ie {display: none;}
+  
+  .non-ie {display: inherit;}
+
+  .scrolling-tabs .tab-content { width: 100%; }
 }

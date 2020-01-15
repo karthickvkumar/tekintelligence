@@ -3,8 +3,6 @@
 // 	event.preventDefault();
 // });
 
-
-
 var deviceType = navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i);
 var pageURL, section_array;
 var currurl = window.location.pathname;
@@ -24,12 +22,12 @@ $("body").find("script").each(function () {
 });
 
 
-var loader_svg = Snap("#loader");
-var loader_set;
-Snap.load("../img/loader.svg", function (f) {
-	loader_set = f.select("svg");
-	loader_svg.append(loader_set);
-});
+// var loader_svg = Snap("#loader");
+// var loader_set;
+// Snap.load("../img/loader.svg", function (f) {
+// 	loader_set = f.select("svg");
+// 	loader_svg.append(loader_set);
+// });
 
 $(document).ready(function () {
 
@@ -46,9 +44,9 @@ $(document).ready(function () {
 
 
 
-	setTimeout(function () {
-		$(".loader-wrapper, .blur-div").hide();
-	}, 2000);
+	// setTimeout(function () {
+	// 	$(".loader-wrapper, .blur-div").hide();
+	// }, 2000);
 
 	$.fn.isOnScreen = function () {
 		var win = $(window);
