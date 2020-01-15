@@ -1195,31 +1195,31 @@ div#EmbedMap {
 }
 
 .b-crm-home {
-    background-image: url(../img/placeholder/erp-crm.svg);
+    background-image: url(../img/placeholder/front-end.jpeg);
 }
 .serv_ad_con {
-    background-image: url(../img/placeholder/ad_cons.jpg);
+    background-image: url(../img/placeholder/mobile.png);
 }
 .sol-del {
-    background-image: url(../img/placeholder/industry-solutions13.svg);
+    background-image: url(../img/placeholder/mobile.png);
 }
 .engage_types {
-    background-image: url(../img/service/fully-ms.jpg);
+    background-image: url(../img/placeholder/mobile.png);
 }
 .dynamics-365 {
-    background-image: url(../img/placeholder/b-365.jpg);
+    background-image: url(../img/placeholder/mobile.png);
 }
 .dynamics-ax {
-    background-image: url(../img/placeholder/b-AX.jpg);
+    background-image: url(../img/placeholder/mobile.png);
 }
 .dynamics-nav {
-    background-image: url(../img/placeholder/b-NAV.jpg);
+    background-image: url(../img/placeholder/mobile.png);
 }
 .dynamics-gp {
-    background-image: url(../img/placeholder/b-GP.jpg);
+    background-image: url(../img/placeholder/mobile.png);
 }
 .dynamics-crm {
-    background-image: url(../img/placeholder/b-CRM.jpg);
+    background-image: url(../img/placeholder/mobile.png);
 }
 .oracle-fusion {
     background-image: url(../img/placeholder/b-OracleFusion.jpg);
@@ -1271,7 +1271,7 @@ div#EmbedMap {
     background-position: center center !important;
 }
 .sharepoint-office-home{
-    background-image: url(../img/placeholder/share3.jpg);
+    background-image: url(../img/placeholder/cloud.jpg);
     background-position: center bottom !important;
 }
 .sharepoint-maintenance{
@@ -1284,7 +1284,7 @@ div#EmbedMap {
     background-position: center center !important;
 }
 .content {
-    background-image: url(../img/placeholder/digi2.svg);
+    background-image: url(../img/placeholder/mobile.png);
 }
 .enterprise-collab {
     background-image: url(../img/service/enterprise.jpg);
@@ -1299,17 +1299,17 @@ div#EmbedMap {
     background-image: url(../img/placeholder/b-hadoop.jpg);
 }
 .data-management {
-    background-image: url(../img/home-icons/icons/data-management.svg);
+    background-image: url(../img/placeholder/app-development.jpg);
 }
 .quality {
     background-image: url(../img/placeholder/qual.jpg);
 }
 .cloud {
-    background-image: url(../img/placeholder/cloud.svg);
+    background-image: url(../img/placeholder/marketing.jpg);
 }
 
 .it-infra-bg {
-    background-image: url(../img/placeholder/IT-infras.svg);
+    background-image: url(../img/placeholder/maintenance.jpg);
 }
 .devops {
     background-image: url(../img/placeholder/devops.svg);
@@ -2544,4 +2544,8 @@ div#EmbedMap {
     .carousel-wrapper {
         min-height: 550px;
     }
+}
+
+.icon-position{
+    margin-top: 4px;
 }
