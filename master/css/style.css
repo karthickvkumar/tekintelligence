@@ -360,9 +360,10 @@ ul.sub-ul li:hover a span:after,.overlay-content a:hover span:after { width:20px
 }
 /* /Menu */
 /* Full Page Carousel itself*/
+/* BACKGROUND COLOR */
 #carousel-example-1z.carousel {
   height: 100%; 
-  background-image: linear-gradient(#ffffff, #ffffff, #f2fcff);
+  /* background-image: linear-gradient(#2196F3, #0a85dc, #723cd2); */
 }
 
 #carousel-example-1z ol.carousel-indicators {

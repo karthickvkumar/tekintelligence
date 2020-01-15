@@ -131,7 +131,7 @@
     width: 275px;
     height: 57px;
     margin: 20px 0 !important;
-    background: url(../img/logo-white.png) no-repeat;
+    /* background: url(../img/logo-white.png) no-repeat; */
     background-size: 90%;
     background-position: center;
 }
@@ -531,31 +531,31 @@ section.k-fp {
 
 /*29/01/2019*/
 #carousel-example-1z .carousel-inner .carousel-item:first-child .view,#carousel-example-1z .carousel-inner .carousel-item:nth-child(7) .view {
-    background: url("../img/home-icons/banner/solution-delivery.jpg") no-repeat;
+    background: url("../img/banner/web-development.jpg") no-repeat;
     background-size: cover;
 }
 #carousel-example-1z .carousel-inner .carousel-item:nth-child(2) .view,#carousel-example-1z .carousel-inner .carousel-item:nth-child(8) .view {
-    background: url("../img/home-icons/banner/2-1.jpg") no-repeat;
+    background: url("../img/banner/solution-delivery.jpg") no-repeat;
     background-size: cover;
 }
 #carousel-example-1z .carousel-inner .carousel-item:nth-child(3) .view,#carousel-example-1z .carousel-inner .carousel-item:nth-child(9) .view {
-    background: url("../img/home-icons/banner/4.jpg") no-repeat;
+    background: url("../img/banner/software-testing.jpg") no-repeat;
     background-size: cover;
 }
 #carousel-example-1z .carousel-inner .carousel-item:nth-child(4) .view,#carousel-example-1z .carousel-inner .carousel-item:nth-child(10) .view {
-    background: url("../img/home-icons/banner/5.jpg") no-repeat;
+    background: url("../img/banner/mobile-development.png") no-repeat;
     background-size: cover;
 }
 #carousel-example-1z .carousel-inner .carousel-item:nth-child(5) .view,#carousel-example-1z .carousel-inner .carousel-item:nth-child(11) .view {
-    background: url("../img/home-icons/banner/6.jpg") no-repeat;
+    background: url("../img/banner/infra-structure.jpg") no-repeat;
     background-size: cover;
 }
 #carousel-example-1z .carousel-inner .carousel-item:nth-child(6) .view,#carousel-example-1z .carousel-inner .carousel-item:nth-child(12 ) .view {
-    background: url("../img/home-icons/banner/2.jpg") no-repeat;
+    background: url("../img/banner/clould.jpg") no-repeat;
     background-size: cover;
 }
 #carousel-example-1z .carousel-inner .carousel-item:last-child .view {
-    background: url("../img/home-icons/banner/3.jpg") no-repeat;
+    background: url("../img/banner/ai.jpg") no-repeat;
     background-size: cover;
 }
 .carousel .carousel-control-next, .carousel .carousel-control-prev {
@@ -960,7 +960,7 @@ main,footer {
 }
 .desktop-menu li .sub-list-head a {
     display: block;
-    color: #31aed1;
+    color: #0061f4;
     padding: 0;
     font-size: inherit; 
     background: #292929;
