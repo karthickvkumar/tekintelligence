@@ -1876,7 +1876,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  padding: 14px 0;
+  /* padding: 14px 0; */
   position: fixed;
   left: 0;
   top: 0;
@@ -1886,7 +1886,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(34, 34, 34, 0.9);
+  background:#303847;
   transition: all 0.5s;
 }
 
@@ -2167,7 +2167,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-gap {
-  padding: 120px 0;
+  padding-bottom: 120px;
 }
 
 .section-title {
@@ -2305,8 +2305,29 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-top: 20px;
 }
 
+.banner-content h2 {
+  color: #fff;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 1em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .banner-content h1 span {
   font-weight: 700;
+}
+
+.banner-content h3{
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 2em;
+}
+
+.banner-content p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 2em;
 }
 
 @media (max-width: 991.98px) {
